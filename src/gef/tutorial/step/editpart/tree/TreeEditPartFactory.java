@@ -1,4 +1,4 @@
-package gef.tutorial.step.tree;
+package gef.tutorial.step.editpart.tree;
 
 import org.eclipse.gef.EditPart;
 import org.eclipse.gef.EditPartFactory;

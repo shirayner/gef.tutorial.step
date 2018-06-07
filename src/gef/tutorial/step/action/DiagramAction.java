@@ -16,8 +16,8 @@ import org.eclipse.ui.actions.ActionFactory.IWorkbenchAction;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 
 import gef.tutorial.step.app.Application;
-import gef.tutorial.step.ui.DiagramEditor;
-import gef.tutorial.step.ui.DiagramEditorInput;
+import gef.tutorial.step.ui.editor.DiagramEditor;
+import gef.tutorial.step.ui.editor.input.DiagramEditorInput;
 
 public class DiagramAction extends Action implements IWorkbenchAction,
         ISelectionListener

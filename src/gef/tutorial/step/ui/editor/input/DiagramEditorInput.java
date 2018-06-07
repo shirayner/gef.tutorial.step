@@ -1,4 +1,4 @@
-package gef.tutorial.step.ui;
+package gef.tutorial.step.ui.editor.input;
 //内容提供者
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.jface.resource.ImageDescriptor;

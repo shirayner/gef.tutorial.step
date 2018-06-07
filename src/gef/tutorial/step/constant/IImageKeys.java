@@ -1,4 +1,4 @@
-package gef.tutorial.step.helper;
+package gef.tutorial.step.constant;
 
 public interface IImageKeys
 {

@@ -1,4 +1,4 @@
-package gef.tutorial.step.tree;
+package gef.tutorial.step.editpart.tree;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

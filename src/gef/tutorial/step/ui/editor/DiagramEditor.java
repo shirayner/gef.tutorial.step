@@ -1,4 +1,4 @@
-package gef.tutorial.step.ui;
+package gef.tutorial.step.ui.editor;
 
 import java.util.ArrayList;
 import java.util.EventObject;
@@ -52,13 +52,13 @@ import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.eclipse.ui.views.contentoutline.IContentOutlinePage;
 
 import gef.tutorial.step.app.Application;
+import gef.tutorial.step.constant.IImageKeys;
 import gef.tutorial.step.editpart.PartFactory;
-import gef.tutorial.step.helper.IImageKeys;
+import gef.tutorial.step.editpart.tree.TreeEditPartFactory;
 import gef.tutorial.step.model.ArrowConnectionModel;
 import gef.tutorial.step.model.ContentsModel;
 import gef.tutorial.step.model.HelloModel;
 import gef.tutorial.step.model.LineConnectionModel;
-import gef.tutorial.step.tree.TreeEditPartFactory;
 
 public class DiagramEditor extends GraphicalEditorWithPalette {
 

@@ -22,7 +22,7 @@
    <extension
          point="org.eclipse.ui.editors">
       <editor
-            class="gef.tutorial.step.ui.DiagramEditor"
+            class="gef.tutorial.step.ui.editor.DiagramEditor"
             contributorClass="gef.tutorial.step.action.DiagramActionBarContributor"
             default="false"
             icon="icons/alt_window16.gif"
