@@ -1,0 +1,24 @@
+﻿# 1. Eclipse
+.settings/
+
+
+# 2. log
+logs/
+*.log
+
+# 3. jrebel
+rebel.xml
+
+# 3. Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 4. Compiled class file
+*.class
+bin/
+
+
+

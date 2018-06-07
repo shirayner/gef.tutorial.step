@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="gef.tutorial.step.app.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="gef.tutorial.step.app.Perspective"
+            id="gef.tutorial.step.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="gef.tutorial.step.ui.DiagramEditor"
+            contributorClass="gef.tutorial.step.action.DiagramActionBarContributor"
+            default="false"
+            icon="icons/alt_window16.gif"
+            id="gef.tutorial.step.ui.DiagramEditor"
+            name="Diagram Editor">
+      </editor>
+   </extension>
+
+</plugin>

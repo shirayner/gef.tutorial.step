@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gef
+Bundle-SymbolicName: gef.tutorial.step;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: gef.tutorial.step.app.Activator
+Bundle-Vendor: Runner_up
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef;bundle-version="3.9.100",
+ org.eclipse.ui.views
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
